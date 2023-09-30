@@ -430,7 +430,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     text-align: justify;
     color: var(--CLOUD, #F4F4FD);
-    padding: 40px;
+    padding: 40px 32px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -439,8 +439,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
             height: 300px;
             flex-shrink: 0;
             transform: translateY(100%);
-            transition: transform 250ms linear;
-            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-subtitle {
@@ -509,12 +508,12 @@ background: var(--NAVY-BLUE, #2E2F42);
         letter-spacing: 0.02em;
         max-width: 264px;
 }
-/*
+
 .social-media-1 {
     display: flex;
     align-items: baseline;
 }
-*/
+
 .social-media-list {
     display: flex;
     gap: 16px;
@@ -524,15 +523,15 @@ background: var(--NAVY-BLUE, #2E2F42);
 .social-media-item {
     width: 40px;
     height: 40px;
-    gap: 16px;
+   
 }
 
 .social-media-link {
-    display: flex;
 width: 100%;
 height: 100%;
 background-color: #4d5ae5;
 border-radius: 50%;
+display: flex;
 align-items: center;
 justify-content: center;
 }
@@ -550,7 +549,7 @@ background-color: #31d0aa;
 }
 
 .social-media-text {
-    font-weight: 500;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
